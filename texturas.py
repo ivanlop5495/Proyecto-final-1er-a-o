@@ -329,21 +329,16 @@ def ajustar_contraste(lienzo, factor):
         "pixels": []
     }
 
-    # Valor medio de referencia para el ajuste de contraste
     VALOR_MEDIO = 128
 
     # Procesar cada píxel
     for fila in lienzo["pixels"]:
         nueva_fila = []
         for pixel in fila:
-            # Ajustar cada componente RGB
             nuevo_pixel = []
             for componente in pixel:
-                # Aplicar la fórmula de ajuste de contraste
-                # nuevo_valor = VALOR_MEDIO + factor * (valor_original - VALOR_MEDIO)
                 nuevo_valor = int(VALOR_MEDIO + factor * (componente - VALOR_MEDIO))
 
-                # Asegurar que el valor está en el rango [0, 255]
                 nuevo_valor = max(0, min(255, nuevo_valor))
                 nuevo_pixel.append(nuevo_valor)
 
