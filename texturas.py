@@ -331,7 +331,6 @@ def ajustar_contraste(lienzo, factor):
 
     VALOR_MEDIO = 128
 
-    # Procesar cada píxel
     for fila in lienzo["pixels"]:
         nueva_fila = []
         for pixel in fila:
