@@ -128,3 +128,7 @@ img = prepara()
 
 if __name__ == "__main__":
     main()
+
+
+def append():
+    return None
