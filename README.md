@@ -1,5 +1,3 @@
-# Repositorio de plantilla: "Proyecto Final"
-
-Para entregar este ejercicio, crea una bifurcación (fork) de este repositorio, y sube a él tu solución. Puedes consultar el [enunciado](https://gitlab.eif.urjc.es/cursoprogram/materiales/-/blob/main/practicas/final/enero/README.md).
+Proyecto muy simple de 1er año en el que trabajando con listas, diccionarios y funciones se saca todo el partido posible del modulo pixels de python y de las funciones básicas del lenguaje, el archivo a ejecutar es texturas.py con todo en la misma carpeta
 
 
